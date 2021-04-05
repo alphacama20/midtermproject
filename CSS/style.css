@@ -1,0 +1,73 @@
+
+        /*General*/
+        *{
+            margin;0
+            padding;
+            box-sizing:border-box;
+        }
+        
+        body{
+            background-image:url(img/homepage.png);
+        }
+        /*Sticky Header and Nav */
+        header{
+            height:100px;
+            background-color: red;
+            position:fixed;
+            top:0;
+            width:100%;
+            text-align:center;
+        
+        }
+        
+        header img{
+            width:75px;
+            height:75px;
+            padding-left:10px;
+        }
+        
+        nav{
+            padding:20px;
+            position:absolute;
+            top:0px;
+            right:10px;
+            text-align: center;
+        }
+        
+        nav ul{
+            list-style: none;
+        }
+        
+        nav a{
+            text-decoration:none;
+            color: beige;
+            padding:5px;
+            font-size:25px;
+        }
+        
+        /*Main Page*/
+        #bodyCopy{
+            position:static;
+            margin-top:100px;
+            padding: 20px;
+            
+        }
+        
+        #bodyCopy h1{
+            text-align:left;
+            margin-bottom:10px;
+        }
+        
+        #bodyImg{
+            text-align: left;
+            margin:0 auto;
+        }
+
+#splash{height:300px;
+background-image:url(../bg1.png);
+    background-size: contain;
+}
+#mainvideo{text-align: center;
+    margin: 0 auto;
+}
+#maintext{font-family: 'Dela Gothic One', cursive; }
